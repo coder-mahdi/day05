@@ -47,6 +47,39 @@
 			<!-- Code along during the lecture to start building your form -->
 			<form action="#" method="post">
 				<h2>Apply Now</h2>
+				<fieldset>
+					<legend>
+						<span class="number">1</span>
+						Work Details
+					</legend>
+
+
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user-name">
+
+					<label for="mail">Email:</label>
+					<input type="email" name="user-email" id="mail">
+
+					<label for="password">Password:</label>
+					<input type="password" name="user-password" id="password">
+
+					<label for="bio">Biography:</label>
+					<textarea name="user-bio" id="bio"></textarea>
+
+				</fieldset>
+
+				<fieldset>
+					<legend>
+						<span class="number">2</span>
+					</legend>
+					<label>Preferred Work Setup</label>
+
+					<input type="radio" name="work-setup" id="hybrid" value="hybrid">
+					<label for="hybrid" class="light">hybrid</label>
+
+					<input type="radio" name="work-setup" id="remote" value="remote">
+					<label for="remote" class="light"></label>
+				</fieldset>
 			</form>
 
 
